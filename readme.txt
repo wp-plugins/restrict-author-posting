@@ -27,7 +27,7 @@ Just unzip plugin and copy all of theme to plugins folder inside Wordpress core,
 == Changelog ==
 = 1.1 =
 * Add remove restrict user option in admin panel
-=1.0=
+= 1.0 =
 First version release.
 
 == Upgrade Notice ==
