@@ -3,6 +3,7 @@ Contributors: mcjambi
 Tags: restrict user, banned user, user role, posting to category, specific posting category
 Requires at least: 3.0
 Tested up to: 3.8.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,3 +23,14 @@ Just unzip plugin and copy all of theme to plugins folder inside Wordpress core,
 1. Choose a category for author
 2. In editor there\'s no category check box for author being restrict only
 3. Warning the author who has been restricted
+
+== Changelog ==
+= 1.1 =
+* Add remove restrict user option in admin panel
+=1.0=
+First version release.
+
+== Upgrade Notice ==
+
+= 1.1 =
+Add more option in dropdow box to remove restrict for a user

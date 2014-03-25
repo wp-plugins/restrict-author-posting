@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Restrict Author Post
+Plugin Name: Restrict Author Posting
 Plugin URI: http://www.jamviet.com
 Description: Restrict the author in a blog posting to just one category that the admin config in profile.
 Author: Mcjambi
-Version: 1.0
+Version: 1.1
 Tags:	restrict user, banned user, user role, posting to category, specific posting category
 Author URI: http://www.jamviet.com
 */
@@ -31,7 +31,7 @@ Copyright 2014 Jam Viet  (email : mcjambi@gmail.com)
 		function restrict_user_form( $user ) {
 			$args = array(
 				'show_option_all'    => '',
-				'show_option_none'   => '',
+				'show_option_none'   => '== No restrict ==',
 				'orderby'            => 'ID', 
 				'order'              => 'ASC',
 				'show_count'         => 0,
@@ -81,12 +81,11 @@ Copyright 2014 Jam Viet  (email : mcjambi@gmail.com)
 		
 		// check if the user loggin in is author and be restricted
 		function is_restrict() {
-			if ( get_user_meta(get_current_user_id(), '_access', true) != '' )
+			if ( get_user_meta(get_current_user_id(), '_access', true) > 0 )
 					return true;
 			else
 					return false;
 		}
-		
 		
 		
 		/* auto register category to post that the author's being restricted */
