@@ -2,10 +2,10 @@
 /*
 Plugin Name: Restrict Author Posting
 Plugin URI: http://www.jamviet.com
-Description: Restrict the author in a blog posting to just one category that the admin config in profile.
+Description: Restrict an author in your blog posting to just one or more category that admin allowed him/her in profile.
 Author: Mcjambi
-Version: 1.1
-Tags:	restrict user, banned user, user role, posting to category, specific posting category
+Version: 1.1.6
+Tags:	restrict user, banned user, user role, posting to category, specific posting category, author role
 Author URI: http://www.jamviet.com
 */
 
