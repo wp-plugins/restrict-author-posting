@@ -2,9 +2,9 @@
 /*
 Plugin Name: Restrict Author Posting
 Plugin URI: http://www.jamviet.com
-Description: Restrict an author in your blog posting to just one or more category that admin allowed him/her in profile.
+Description: Allow you to restrict the category that your site contributors can post to
 Author: Mcjambi
-Version: 1.1.6
+Version: 1.1.7
 Tags:	restrict user, banned user, user role, posting to category, specific posting category, author role
 Author URI: http://www.jamviet.com
 */
@@ -29,6 +29,8 @@ Copyright 2014 Jam Viet  (email : mcjambi@gmail.com)
 		add_action( 'edit_user_profile', 'restrict_user_form' );
 
 		function restrict_user_form( $user ) {
+			if (is_admin())
+				return false;
 			$args = array(
 				'show_option_all'    => '',
 				'show_option_none'   => '== No restrict ==',
@@ -52,11 +54,11 @@ Copyright 2014 Jam Viet  (email : mcjambi@gmail.com)
 			);
 		?>
 
-			<h3>Restrict Author Post to a category</h3>
+			<h3>Restrict the category in which this user can post to</h3>
 
 			<table class="form-table">
 				<tr>
-					<th><label for="access">Writing to:</label></th>
+					<th><label for="access">Select category:</label></th>
 
 					<td>
 						<?php wp_dropdown_categories($args); ?>
