@@ -29,7 +29,7 @@ Copyright 2014 Jam Viet  (email : mcjambi@gmail.com)
 		add_action( 'edit_user_profile', 'restrict_user_form' );
 
 		function restrict_user_form( $user ) {
-			if (is_admin())
+			if ( user_can($user->ID, 'administrator'))
 				return false;
 			$args = array(
 				'show_option_all'    => '',
