@@ -4,9 +4,10 @@ Plugin Name: Restrict Author Posting
 Plugin URI: http://www.jamviet.com
 Description: Allow you to restrict the category that your site contributors can post to
 Author: Mcjambi
-Version: 1.1.8
+Version: 1.1.9
 Tags:	restrict user, banned user, user role, posting to category, specific posting category, author role
 Author URI: http://www.jamviet.com
+Donate link: http://vietdex.com/about-us
 */
 
 /*
