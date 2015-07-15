@@ -14,9 +14,9 @@ This plugin allow you to restrict the category that your site contributors or an
 == Description ==
 
 My plugin will help you to add restriction category to User profile, so the author or editor can post in just specific categories.
-
+<br>
 Just a small code, so it\'ll never slow down your website !
-
+<br>
 If you have any question, or found a bug, please [let me know](http://www.jamviet.com/2015/05/restrict-author-posting.html) !
 Many thanks to [Pete Stoves](http://ordinarygentlemen.co.uk) help me to debug and add multi-select function in plugin !
 Enjoy ! 
