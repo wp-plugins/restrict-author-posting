@@ -2,31 +2,35 @@
 Contributors: mcjambi
 Tags: restrict user, banned user, user role, posting to category, specific posting category,author role
 Requires at least: 3.0
-Tested up to: 4.1
-Stable tag: 1.1.9
+Tested up to: 4.2
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Donate link: http://www.jamviet.com/2015/05/restrict-author-posting.html
+
 
 This plugin allow you to restrict the category that your site contributors or an author can post to.
 
 == Description ==
-This plugin allowed you to restrict any author in your blog to posting to just specific category.
 
-Just go to User > and choose who to restrict and update, the user you choosed now being restricted.
-
-If you think my plugin is useful, please go to [My Blog](http://www.jamviet.com/2014/03/restrict-author-posting-plugin-wordpress-dau-tien-cua-toi.html "My blog address") and make a comment !
-
-Special thanks to [Sean Barton](http://www.sean-barton.co.uk/2014/04/wordpress-plugin-restrict-post-taxonomies/) and [Tzontonel](http://profiles.wordpress.org/tzontonel) giving me some great idea to make this plugin better, Thanks to [MIJK](https://profiles.wordpress.org/mijk) with small bug.
+My plugin will help you to add restriction category to User profile, so the author or editor can post in just specific categories.
+Just a small code, so it\'ll never slow down your website !
+If you have any question, or found a bug, please [let me know](http://www.jamviet.com/2015/05/restrict-author-posting.html) !
+Many thanks to [Pete Stoves](http://ordinarygentlemen.co.uk) help me to debug and add multi-select function in plugin !
+Enjoy ! 
 
 == Installation ==
-Just unzip plugin and copy all of theme to plugins folder inside Wordpress core, enjoy !
+Just unzip plugin and move all of theme to plugins folder inside Wordpress directory, then go to Admin > Plugins to active it, Done !
 
 == Screenshots ==
 1. Choose a category for author
-2. In editor there\'s no category check box for author being restrict only
-3. Warning the author who has been restricted
+2. In editor there are only alowing categories !
 
 == Changelog ==
+= 1.2.0 =
+Fixed some error !
+Add new function: More than one category can be selected !
+Remove Warning in editor screen, the author or editor now doesn\'t know what happended ( :P ) 
 = 1.1.9 =
 Fixed some error !
 = 1.1.8 =
@@ -42,6 +46,8 @@ First version release.
 
 == Upgrade Notice ==
 
+= 1.2.0 =
+Now Admin can add more than one allowing category to an author !
 = 1.1.8 =
 Now some user can not change his/her restriction except administrator
 = 1.1.7 =
