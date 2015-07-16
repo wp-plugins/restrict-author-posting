@@ -3,7 +3,7 @@ Contributors: mcjambi
 Tags: restrict user, banned user, user role, posting to category, specific posting category,author role
 Requires at least: 3.0
 Tested up to: 4.2
-Stable tag: 1.2.0
+Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: http://www.jamviet.com/2015/05/restrict-author-posting.html
@@ -29,6 +29,8 @@ Just unzip plugin and move all of theme to plugins folder inside Wordpress direc
 2. In editor there are only alowing categories !
 
 == Changelog ==
+= 2.0.2 =
+Fixed error in saving data !
 = 1.2.0 =
 Fixed some error !
 Add new function: More than one category can be selected !
@@ -48,6 +50,9 @@ First version release.
 
 == Upgrade Notice ==
 
+= 2.0.2 =
+Fixed: Administrator can not restrict himself anymore !
+Fixed: if empty, delete itself
 = 1.2.0 =
 Now Admin can add more than one allowing category to an author !
 = 1.1.8 =
